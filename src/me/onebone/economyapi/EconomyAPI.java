@@ -16,3 +16,25 @@ public class EconomyAPI {
     }
     public boolean createAccount(Player player) {
     
+    public boolean createAccount(Player player, double defaultMoney) {
+       EconomyAPI.createAccount(player, defaultMoney);
+    }
+    public boolean createAccount(Player player, double defaultMoney, boolean force) {
+    
+    public boolean createAccount(IPlayer player) {
+    
+    public boolean createAccount(IPlayer player, double defaultMoney) {
+       EconomyAPI.createAccount(player, defaultMoney);
+    }
+    public boolean createAccount(IPlayer player, double defaultMoney, boolean force) {
+    
+    public boolean createAccount(UUID id, double defaultMoney) {
+       EconomyAPI.createAccount(id, defaultMoney);
+    }
+    public boolean createAccount(UUID id, double defaultMoney, boolean force) {
+    
+    public boolean createAccount(String id, double defaultMoney, boolean force) {
+    
+    private boolean createAccountInternal(String id, double defaultMoney, boolean force) {
+    
+    
