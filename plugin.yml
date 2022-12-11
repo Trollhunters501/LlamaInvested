@@ -1,0 +1,8 @@
+main: LlamaInvested.Creadores.main
+name: EconomyAPI
+author: Creadores
+description: "A Plugin to Make EconomyAPI Plugins Work in Llama Economy for Nukkit"
+website: "https://github.com/Trollhunters501/LlamaInvested"
+version: "1.0"
+api: ["1.0.0"]
+load: POSTWORLD
