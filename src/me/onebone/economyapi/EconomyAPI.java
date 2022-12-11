@@ -15,7 +15,8 @@ public class EconomyAPI {
         EconomyAPI = API.getInstance();
     }
     public boolean createAccount(Player player) {
-    
+       EconomyAPI.createAccount(player);
+    }
     public boolean createAccount(Player player, double defaultMoney) {
        EconomyAPI.createAccount(player, defaultMoney);
     }
