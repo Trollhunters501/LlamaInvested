@@ -23,7 +23,7 @@ public class EconomyAPI {
     public boolean createAccount(Player player, double defaultMoney, boolean force) {
     
     public boolean createAccount(IPlayer player) {
-    
+       EconomyAPI.createAccount(player);
     public boolean createAccount(IPlayer player, double defaultMoney) {
        EconomyAPI.createAccount(player, defaultMoney);
     }
