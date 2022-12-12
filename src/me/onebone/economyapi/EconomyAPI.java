@@ -74,5 +74,28 @@ public class EconomyAPI {
     public int setMoney(String id, double amount) {
        EconomyAPI.setMoney(id, amount);
     }
-    
+    public int addMoney(Player player, double amount) {
+       EconomyAPI.addMoney(player, amount);
+    }
+    public int addMoney(Player player, double amount, boolean force) {
+       EconomyAPI.addMoney(player, amount, force);
+    }
+    public int addMoney(IPlayer player, double amount) {
+       EconomyAPI.addMoney(player, amount);
+    }
+    public int addMoney(IPlayer player, double amount, boolean force) {
+       EconomyAPI.addMoney(player, amount, force);
+    }
+    public int addMoney(UUID id, double amount) {
+       EconomyAPI.addMoney(id, amount);
+    }
+    public int addMoney(UUID id, double amount, boolean force) {
+       EconomyAPI.addMoney(id, amount, force);
+    }
+    public int addMoney(String id, double amount) {
+       EconomyAPI.addMoney(id, amount);
+    }
+    public int addMoney(String id, double amount, boolean force) {
+       EconomyAPI.addMoney(id, amount, force);
+    }
     
