@@ -98,4 +98,15 @@ public class EconomyAPI {
     public int addMoney(String id, double amount, boolean force) {
        EconomyAPI.addMoney(id, amount, force);
     }
-    
+    public int reduceMoney(Player player, double amount) {
+       EconomyAPI.reduceMoney(player, amount);
+    }
+    public int reduceMoney(Player player, double amount, boolean force) {
+       EconomyAPI.reduceMoney(player, amount, force);
+    }
+    public int reduceMoney(IPlayer player, double amount) {
+       EconomyAPI.reduceMoney(player, amount);
+    }
+    public int reduceMoney(IPlayer player, double amount, boolean force) {
+       EconomyAPI.reduceMoney(player, amount, force);
+    }
